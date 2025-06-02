@@ -1,94 +1,70 @@
 p{
-    color: rgb(255, 255, 255);
+    color:#101d1c;
+}
+h2{
+    color: rgb(35, 24, 69);
 }
 
-.conan{
-    color:rgb(243, 244, 246) ;
-}
 
-a.jefflink{
-    padding: 0px 20px;
-    margin: 0px 0px 0px 20px;
-    border-radius: 0px 50px 0px 50px;
-    
-}
-
-a.jefflink:hover{
-    background-color: rgb(135, 195, 146);
-    color: black;
-}
-
-.jeffdiv{
-    background-color: rgb(2, 86, 89) ;
-    border: 2px solid rgb(24, 59, 60);
-    padding: 30px;  
-    border-radius: 10px;
-    width: 60%;
-    padding-bottom: 0px;
-}
-
-@media (max-width:991px) {
- .jeffdiv {
-    width:90%;
-   margin: 0 auto;
-}
-}
-
-h4.jeffsmall{
-    color: rgb(126, 189, 188);
-    font-size: 20px;
-}
-
-.jeffcrop{
-    overflow: hidden;
-    margin:10px 5px;
-    height: 500px;
-    object-fit: cover;
+a.teresalink {
+    background-color:rgb(235, 212, 148);
+    padding: 1px;
+    margin: 0px 0px 0px 10px;
     border-radius: 50px;
+    color: rgb(87, 112, 89);;
 }
 
-.jeffcallmebg{
-    background-image: url("../assets/img/bg3.jpg");
-    background-size: cover ;
-    background-repeat: no-repeat;
+a.teresalink:hover{
+    background-color: rgb(8, 111, 18);
+    color: rgb(5, 13, 105);
 }
 
-.jeffserif{
-     font-family: "Noto Serif TC", serif;
+div.teresadivgrey{
+    background-color: rgb(113, 168, 161);
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid rgb(45, 34, 53);
 }
 
-.jeffhi{
-    color: rgb(84, 199, 151);
-    font-weight: 900;
+h4{
+    font-size: 18px;
+    color: rgb(38, 38, 68);
 }
 
-.jeff-white{
-    color: rgb(223, 244, 187); 
+section#about.resume-section{
+    background-color: rgb(239, 219, 139);
 }
 
-.jeff-green{
-    color: rgb(159, 103, 24);
+section#school.resume-section{
+    background-color: rgb(229, 210, 165);
+}
+section#experience.resume-section{
+    background-color: rgb(146, 205, 243);
 }
 
-.jeff-black{
-    color: black;
+section#interest.resume-section{
+    background-color: rgb(160, 132, 132);
 }
 
-.jeffback{
-    background-image: url("../assets/img/background4.jpg");
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-blend-mode:luminosity;
-    background-color: #0000007b;
-    background-attachment: fixed;
+section#work.resume-section{
+    background-color: rgb(140, 157, 92);
 }
 
-.jeff-blue{
-    color: rgb(4, 87, 114);
+.teresabgblue{
+    background-color: rgb(76, 76, 112);
 }
 
-.jeffhigh{
-    height: 600px;
+.teresacrop{
+    height:200px;
     overflow: hidden;
     object-fit: cover;
+    margin: 10px 5px;
+    border-radius: 10px
 }
+
+.ycczoo{
+    background-image: url("../assets/img/bgph.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+
